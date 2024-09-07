@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI Agenda</title>
+    <link rel="stylesheet" href="Agenda.css">
+</head>
+
+<body>
+    <h1>Tu Agenda Favorita</h1>
+    <p>Ingresa el evento que quieres guardar:</p>
+    <div class="form">
+        <input type="text" id="event-name" placeholder="Nombre del evento">
+        <input type="date" id="event-date">
+        <button onclick="AñadirEvento()">Agregar Evento</button>
+    </div>
+    <ul id="event-list"></ul>
+
+    <script src="Agenda.js"></script>
+</body>
+
+</html>

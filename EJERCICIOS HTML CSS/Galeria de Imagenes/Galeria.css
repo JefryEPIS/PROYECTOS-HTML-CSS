@@ -1,0 +1,41 @@
+div {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+div img {
+
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+div img:hover {
+
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+
+}
+
+body {
+    background: #100c0c;
+    color: white;
+}
+
+h1 {
+
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    margin-left: 500px;
+}
